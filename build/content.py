@@ -51,9 +51,9 @@ FOOTER = {
 #   "split"   título + contenido a un lado, imagen al otro
 PAGES = {
     "urraca-asesores": {
-        "title": "General  2",
+        "title": "Urraca Asesores",
         "sections": [
-            {"layout": "banner", "image": pexels(6863183), "image_alt": "Documentos fiscales", "heading": "ASESORIA."},
+            {"layout": "banner", "image": pexels(6863279), "image_alt": "Impresos fiscales, calculadora y lápices", "heading": "ASESORIA."},
             {"layout": "columns", "columns": [
             [
                 ("h", 2, "LABORAL"),
@@ -91,7 +91,7 @@ PAGES = {
     },
 
     "concursal": {
-        "title": "General 3",
+        "title": "Concursal",
         "sections": [
             {"layout": "text", "blocks": [
                 ("h", 2, "Concursal."),
@@ -99,7 +99,7 @@ PAGES = {
                 ("pendiente", "Concursal · párrafo 2"),
                 ("pendiente", "Concursal · párrafo 3"),
             ]},
-            {"layout": "split", "image": pexels(4386339), "image_alt": "Calculadora y billetes", "blocks": [
+            {"layout": "split", "image": pexels(3943746), "image_alt": "Manos intercambiando billetes de euro", "blocks": [
                 ("h", 3, "Como asesor del deudor."),
                 ("ul", [
                     "Asesoramiento en la fase preconcursal para negociación con acreedores, refinanciación, reestructuración, etc….",
@@ -124,7 +124,7 @@ PAGES = {
     "gestion-de-recobro": {
         "title": "Gestion de recobro",
         "sections": [
-            {"layout": "banner", "image": pexels(3943716), "image_alt": "Monedas", "heading": "Gestion  de recobro."},
+            {"layout": "banner", "image": pexels(16399858), "image_alt": "Monedas de euro sobre fondo negro", "heading": "Gestion  de recobro."},
             {"layout": "text", "blocks": [
                 ("pendiente", "Gestión de recobro · párrafo 1"),
                 ("pendiente", "Gestión de recobro · párrafo 2"),
@@ -132,7 +132,7 @@ PAGES = {
                 ("pendiente", "Gestión de recobro · párrafo 4"),
                 ("p", "Tratamiento personalizado, exclusivo e individual a cada cliente."),
             ]},
-            {"layout": "card", "image": pexels(7681091), "image_alt": "Firma de documentos", "blocks": [
+            {"layout": "card", "image": pexels(8730987), "image_alt": "Firma de un documento con pluma", "blocks": [
                 ("pendiente", "Gestión de recobro · párrafo introductorio del recuadro"),
                 ("ul", [
                     "Asignamos interlocutores exclusivos “Urraca Asesores / Urraca Abogados - Cliente” para lograr una comunicación directa, cercana y eficaz entre las dos partes.",
@@ -154,7 +154,7 @@ PAGES = {
     "derecho-mercantil": {
         "title": "Derecho mercantil",
         "sections": [
-            {"layout": "split", "image": pexels(5669602), "image_alt": "Balanza de la justicia", "blocks": [
+            {"layout": "split", "image": pexels(5669602), "image_alt": "Balanza de la justicia y mazo", "blocks": [
                 ("h", 2, "Derecho mercantil."),
                 ("ul", [
                     "Constitución de Sociedades Mercantiles.",
@@ -176,7 +176,7 @@ PAGES = {
     "derecho-bancario": {
         "title": "Derecho bancario",
         "sections": [
-            {"layout": "split", "image": pexels(6266283), "image_alt": "Billetes y calculadora", "blocks": [
+            {"layout": "split", "image": pexels(16584983), "image_alt": "Fachada del Banco de España", "blocks": [
                 ("h", 2, "Derecho bancario."),
                 ("pendiente", "Derecho bancario · párrafo 1"),
                 ("pendiente", "Derecho bancario · párrafo 2"),
@@ -187,7 +187,7 @@ PAGES = {
     "derecho-contractual": {
         "title": "Derecho contractual",
         "sections": [
-            {"layout": "split", "image": pexels(5673488), "image_alt": "Apretón de manos", "blocks": [
+            {"layout": "split", "image": pexels(8069428), "image_alt": "Apretón de manos", "blocks": [
                 ("h", 2, "Derecho contractual."),
                 ("ul", [
                     "Contratación Mercantil nacional e internacional.",
@@ -201,7 +201,7 @@ PAGES = {
     "derecho-civil": {
         "title": "Derecho civil",
         "sections": [
-            {"layout": "banner", "image": pexels(8730047), "image_alt": "Familia", "heading": "Derecho civil."},
+            {"layout": "banner", "image": pexels(3450124), "image_alt": "Pareja mayor paseando por una calle", "heading": "Derecho civil."},
             {"layout": "columns", "columns": [
                 [("ul", [
                     "Procesos civiles e hipotecarios, declarativos y ejecutivos.",
@@ -235,7 +235,7 @@ PAGES = {
     "derecho-penal": {
         "title": "Derecho penal",
         "sections": [
-            {"layout": "split", "image": pexels(5668473), "image_alt": "Mazo de juez", "blocks": [
+            {"layout": "split", "image": pexels(3747555), "image_alt": "Libros de derecho", "blocks": [
                 ("h", 2, "Derecho penal."),
                 ("p", "Urraca Asesores / Urraca Abogados cuenta con gran experiencia en Derecho Penal."),
                 ("pendiente", "Derecho penal · párrafo 2"),
@@ -257,7 +257,7 @@ PAGES = {
     "derecho-procesal": {
         "title": "Derecho procesal",
         "sections": [
-            {"layout": "split", "image": pexels(8112199), "image_alt": "Estatua de la justicia", "image_first": True, "blocks": [
+            {"layout": "split", "image": pexels(5668473), "image_alt": "Mazo de juez", "image_first": True, "blocks": [
                 ("h", 3, "Derecho procesal."),
                 ("pendiente", "Derecho procesal · párrafo 1"),
                 ("pendiente", "Derecho procesal · párrafo 2"),
@@ -284,7 +284,7 @@ PAGES = {
     "derecho-inmobiliario": {
         "title": "Derecho inmobiliario",
         "sections": [
-            {"layout": "split", "image": pexels(106399), "image_alt": "Vivienda", "image_first": True, "blocks": [
+            {"layout": "split", "image": pexels(35417681), "image_alt": "Calle con edificios de viviendas", "image_first": True, "blocks": [
                 ("h", 3, "Derecho inmobiliario."),
                 ("pendiente", "Derecho inmobiliario · párrafo 1"),
                 ("pendiente", "Derecho inmobiliario · párrafo 2"),
@@ -311,7 +311,7 @@ PAGES = {
     "derecho-urbanistico": {
         "title": "Derecho urbanistico",
         "sections": [
-            {"layout": "split", "image": pexels(2219024), "image_alt": "Obra en construcción", "blocks": [
+            {"layout": "split", "image": pexels(5505125), "image_alt": "Grúa en una obra", "blocks": [
                 ("h", 2, "Derecho urbanistico."),
                 ("pendiente", "Derecho urbanístico · párrafo 1"),
                 ("p", "Nuestros servicios en este ámbito nos permiten ofrecerle asesoramiento jurídico en:"),
@@ -329,8 +329,8 @@ PAGES = {
     "derecho-laboral": {
         "title": "Derecho laboral",
         "sections": [
+            {"layout": "banner", "image": pexels(3183150), "image_alt": "Equipo de trabajo en una reunión", "heading": "Derecho laboral."},
             {"layout": "text", "blocks": [
-                ("h", 2, "Derecho laboral."),
                 ("pendiente", "Derecho laboral · párrafo 1"),
                 ("pendiente", "Derecho laboral · párrafo 2"),
                 ("pendiente", "Derecho laboral · párrafo 3"),
@@ -375,7 +375,7 @@ PAGES = {
         "title": "Derecho de familia",
         "sections": [
             {"layout": "text", "blocks": [("h", 3, "Derecho de familia.")]},
-            {"layout": "split", "image": pexels(1648387), "image_alt": "Familia", "image_first": True, "blocks": [
+            {"layout": "split", "image": pexels(3617568), "image_alt": "Fotografías familiares antiguas", "image_first": True, "blocks": [
                 ("ul", [
                     "Separación, Divorcio y Nulidad Civil.",
                     "Nulidad Eclesiástica.",
@@ -438,5 +438,9 @@ PAGES = {
     },
 }
 
-# "urraca-abogados-1" es, en la web original, una copia de "concursal".
-PAGES["urraca-abogados-1"] = PAGES["concursal"]
+# "/urraca-abogados-1" era en la web original una copia de "Concursal":
+# se mantiene la URL como redirección.
+REDIRECTS = {"urraca-abogados-1": "concursal"}
+
+HOME_IMAGE = pexels(7054505)
+HOME_IMAGE_ALT = "Mano escribiendo sobre un documento"
