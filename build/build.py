@@ -4,6 +4,7 @@ Uso:  python3 build/build.py
 Crea index.html en la raíz y <slug>/index.html por página, para conservar
 las mismas URLs que la web original (/concursal, /contacto, ...).
 """
+import re
 from html import escape
 from pathlib import Path
 
@@ -152,7 +153,26 @@ def page(path, title, body):
 """
 
 
+def relativize(path, html):
+    """Convierte las rutas absolutas (/assets, /concursal...) en relativas para que
+    la web funcione también dentro de una subcarpeta (p. ej. GitHub Pages)."""
+    prefix = "" if path == "/" else "../"
+
+    def fix(m):
+        attr, target = m.group(1), m.group(2)
+        if target == "":
+            url = prefix or "./"
+        elif target.startswith("assets/"):
+            url = prefix + target
+        else:
+            url = prefix + target + "/"
+        return f'{attr}="{url}"'
+
+    return re.sub(r'(href|src)="/(?!/)([^"]*)"', fix, html)
+
+
 def write(path, html):
+    html = relativize(path, html)
     out = ROOT / ("index.html" if path == "/" else f"{path.strip('/')}/index.html")
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(html, encoding="utf-8")
