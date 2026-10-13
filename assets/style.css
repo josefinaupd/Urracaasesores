@@ -225,6 +225,9 @@ footer .bottom a { color: #c9ccd0; }
 /* ---------- Móvil */
 @media (max-width: 860px) {
   :root { --header: 72px; }
+  /* backdrop-filter convierte la cabecera en contenedor de los elementos fijos y
+     recortaría el menú desplegado a su altura */
+  header.site { backdrop-filter: none; -webkit-backdrop-filter: none; background: var(--paper); }
   .brand img { height: 22px; }
   .burger { display: block; }
   nav {
@@ -238,7 +241,9 @@ footer .bottom a { color: #c9ccd0; }
   nav a, nav button { font: 500 28px/1.3 var(--serif); letter-spacing: 0; padding: 14px 0; width: 100%; justify-content: space-between; background-image: none; }
   nav a[aria-current], nav .active > button { color: var(--accent); }
   nav button svg { width: 14px; height: 9px; }
-  nav .sub { position: static; transform: none; box-shadow: none; border: 0; padding: 0 0 14px; min-width: 0; background: none; }
+  nav .sub { display: flex; position: static; transform: none; box-shadow: none; border: 0; padding: 0 0 14px; min-width: 0; background: none; }
+  nav .has-sub > button { cursor: default; pointer-events: none; padding-bottom: 6px; }
+  nav .has-sub > button svg { display: none; }
   nav .sub::before { display: none; }
   nav .sub a { font: 300 17px/1.4 var(--sans); padding: 8px 0 8px 16px; white-space: normal; }
   nav .sub a:hover, nav .sub a[aria-current] { background: none; color: var(--accent); }
