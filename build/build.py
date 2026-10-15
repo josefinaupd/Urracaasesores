@@ -243,7 +243,8 @@ def contact_page():
 <section class="contact">
   <div class="wrap">
     <div class="info">
-      <p><a href="{MAP_URL}" target="_blank" rel="noopener">C. Mayor Principal, 15<br>Piso 2D, 34001 Palencia, España</a></p>
+      <p><a href="{MAP_URL}" target="_blank" rel="noopener">C. Mayor Principal, 15</a></p>
+      <p><a href="{MAP_URL}" target="_blank" rel="noopener">Piso 2D, 34001 Palencia, España</a></p>
       <p><a href="{PHONE_HREF}">{PHONE}</a></p>
       <p><a href="mailto:{EMAIL}">{EMAIL}</a></p>
       <div class="hours">
