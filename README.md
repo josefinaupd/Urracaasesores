@@ -13,10 +13,9 @@ Todas las fotos son de **Pexels** (licencia gratuita) y se cargan directamente d
 así que no hay que alojarlas. Para cambiar una, sustituye el número de foto de Pexels en `build/content.py`
 (`pexels(ID)`). Solo el logo (`logo.png` oscuro y `logo-white.png` para el pie) y el favicon están en `assets/`.
 
-## Textos pendientes
-Los párrafos largos de redacción (introducciones de algunas áreas y los apartados del aviso legal) aparecen
-como recuadros `[Texto pendiente — ...]`. Para completarlos, cambia cada `("pendiente", "...")` en
-`build/content.py` por `("p", "texto del párrafo")` y vuelve a generar.
+## Textos
+Todos los textos son los de la web original, tomados de la exportación de Squarespace.
+Para cambiar uno, edítalo en `build/content.py` y vuelve a generar.
 
 ## Formulario de contacto
 Al ser una web estática, el formulario abre el cliente de correo (`mailto:info@urracaasesores.com`).
