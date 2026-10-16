@@ -187,7 +187,7 @@ PAGES = {
     "derecho-contractual": {
         "title": "Derecho contractual",
         "sections": [
-            {"layout": "split", "image": pexels(8069428), "image_alt": "Apretón de manos", "blocks": [
+            {"layout": "split", "image": pexels(6077447), "image_alt": "Mazo de juez junto a un contrato que se está firmando", "blocks": [
                 ("h", 2, "Derecho contractual."),
                 ("ul", [
                     "Contratación Mercantil nacional e internacional.",
