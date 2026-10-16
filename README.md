@@ -22,6 +22,6 @@ Al ser una web estática, el formulario abre el cliente de correo (`mailto:info@
 Para que envíe directamente, hay que conectarlo a un servicio de formularios (Netlify Forms, Formspree...).
 
 ## Publicación
-- Publicada con GitHub Pages en `https://josefinaupd.github.io/Urracaasesores/`.
-- Si se pasa a dominio propio, cambia `BASE_PATH` a `""` en `build/build.py` (solo afecta a la página 404) y vuelve a generar.
+- Publicada con GitHub Pages en el dominio propio `https://urracaasesores.com/` (archivo `CNAME`).
+- Si se vuelve a publicar en una subcarpeta (p. ej. `usuario.github.io/Urracaasesores/`), pon `BASE_PATH = "/Urracaasesores"` en `build/build.py` (solo afecta a la página 404) y vuelve a generar.
 - `/urraca-abogados-1` (una copia de "Concursal" en la web original) redirige a `/concursal`.

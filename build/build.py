@@ -27,7 +27,7 @@ MAP_EMBED = "https://www.google.com/maps?q=C.+Mayor+Principal+15,+34001+Palencia
 
 # Carpeta donde se publica la web (solo la usa la página 404, que GitHub Pages
 # sirve desde cualquier ruta). Con dominio propio, dejar en "".
-BASE_PATH = "/Urracaasesores"
+BASE_PATH = ""
 
 ABOGADOS = next(t for l, t in NAV if isinstance(t, list))
 ASESORES_SLUG = "urraca-asesores"

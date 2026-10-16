@@ -53,7 +53,7 @@ PAGES = {
     "urraca-asesores": {
         "title": "Urraca Asesores",
         "sections": [
-            {"layout": "banner", "image": pexels(6863279), "image_alt": "Impresos fiscales, calculadora y lápices", "heading": "ASESORIA."},
+            {"layout": "banner", "image": pexels(16600134), "image_alt": "Calculadora, billete de euro y documentos", "heading": "ASESORIA."},
             {"layout": "columns", "columns": [
             [
                 ("h", 2, "LABORAL"),
@@ -154,7 +154,7 @@ PAGES = {
     "derecho-mercantil": {
         "title": "Derecho mercantil",
         "sections": [
-            {"layout": "split", "image": pexels(5669602), "image_alt": "Balanza de la justicia y mazo", "blocks": [
+            {"layout": "split", "image": pexels(8112199), "image_alt": "Estatua de la Justicia con balanza", "blocks": [
                 ("h", 2, "Derecho mercantil."),
                 ("ul", [
                     "Constitución de Sociedades Mercantiles.",
@@ -187,7 +187,7 @@ PAGES = {
     "derecho-contractual": {
         "title": "Derecho contractual",
         "sections": [
-            {"layout": "split", "image": pexels(6077447), "image_alt": "Mazo de juez junto a un contrato que se está firmando", "blocks": [
+            {"layout": "split", "image": pexels(955394), "image_alt": "Firma de un contrato", "blocks": [
                 ("h", 2, "Derecho contractual."),
                 ("ul", [
                     "Contratación Mercantil nacional e internacional.",
@@ -257,7 +257,7 @@ PAGES = {
     "derecho-procesal": {
         "title": "Derecho procesal",
         "sections": [
-            {"layout": "split", "image": pexels(5668473), "image_alt": "Mazo de juez", "image_first": True, "blocks": [
+            {"layout": "split", "image": pexels(28948052), "image_alt": "Estatua de la Justicia en la fachada de un edificio histórico", "image_first": True, "blocks": [
                 ("h", 3, "Derecho procesal."),
                 ("p", "Nuestro equipo de Derecho Procesal y Arbitraje asesora en diversas materias, tanto a sociedades como a particulares, entre las que destacan por su relevancia, las de naturaleza civil y mercantil."),
                 ("p", "Conformado por un equipo de dilatada experiencia profesional en derecho procesal, permite tener una visión global del problema, no ya sólo desde el punto de vista técnico formal, sino desde el sustantivo material de la problemática en cuestión, lo que ayuda a la comunicación y entendimiento con el cliente."),
